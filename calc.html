@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR</title>
+	<link rel = "stylesheet" type = "text/css" href = "desgin.css">
+</head>
+<body>
+<div class = "main">
+	<form name = "myform">
+		<input type ="text" name = "textview" class = "textview" disabled>
+	</form>
+	<table>
+		<tr>
+			<td><input type = "button" class = "button" value = "7"  onclick = "insertNum(7)"></td>
+			<td><input type = "button" class = "button" value = "8"  onclick = "insertNum(8)"></td>
+			<td><input type = "button" class = "button " value = "9" onclick = "insertNum(9)"></td>
+			<td><input type = "button" class = "button" value = "DEL" onclick = "back()"></td>
+			<td><input type = "button" class = "button" value = "OFF"></td>
+		</tr>
+		<tr>
+			<td><input type = "button" class = "button" value = "4" onclick = "insertNum(4)"></td>
+			<td><input type = "button" class = "button" value = "5" onclick = "insertNum(5)"></td>
+			<td><input type = "button" class = "button" value = "6" onclick = "insertNum(6)"></td>
+			<td><input type = "button" class = "button" value = "*" onclick = "insertOp('*')"></td>
+			<td><input typt = "button" class ="button"  value ="/" onclick = "insertNum('/')"></td>
+		</tr>
+		<tr>
+			<td><input type = "button" class = "button" value = "1" onclick = "insertNum(1)"></td>
+			<td><input type = "button" class = "button" value = "2" onclick = "insertNum(2)"></td>
+			<td><input type = "button" class = "button" value = "3" onclick = "insertNum(3)"></td>
+			<td><input type = "button" class = "button" value = "+" onclick = "insertNum('+')"></td>
+			<td><input type = "button" class ="button"  value = "-" onclick = "insertNum('-')"></td>
+		</tr>
+		<tr>
+			<td><input type = "button" class = "button" value = "c" onclick = "clean()"></td>
+			<td><input type = "button" class = "button" value = "0" onclick = "insertNum(0)"></td>
+			<td><input type = "button" class = "button" value = "." onclick = "insertDec()"></td>
+			<td><input type = "button" class = "button" value = "=" onclick = "equalTo()"></td>
+		
+		</tr>
+	</table>
+</div>
+<script type = "text/javascript" src="aaa.js">
+</script>
+</body>
+</html>
