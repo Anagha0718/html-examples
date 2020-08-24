@@ -1,0 +1,47 @@
+.a
+{
+    color:white;
+	text-align: center;
+	height:900px;
+	width:100%;
+	padding-top: 100px;
+    background-image: url('net.webp');
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+    text-align: left;
+    opacity: 0.9;
+}
+.a .main{
+	text-align: center;
+	font-size: 3.125rem;
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 1.1;
+}
+.subtitle{
+	font-weight: 500;
+	font-size: 30px;
+}
+.net{
+	font-weight:300 ;
+	font-size: 18px;
+}
+.button{
+	border: none;
+    color:white;
+    background-color: red;
+    font-size: 1rem;
+    font-style:Helvetica,Arial,sans-serif;
+    padding: 25px 50px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: -18px;
+    position:relative;
+    padding-bottom:30px;
+    padding-top:18px;
+}
+.name{
+	padding:32px 150px;
+	position-right:30px;
+	position:relative;
+}
