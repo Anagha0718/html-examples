@@ -1,0 +1,52 @@
+
+
+.navbar-nav li{
+    padding-left:30px;
+    padding-right:30px;
+    color:white;
+    text-align: right;
+}
+.abc .content{
+     font-size:60px;
+     font-family: "Josefin Sans",sans-serif,"Muli";
+     position: absolute;
+     top: 8px;
+     right: 16px;
+     padding-top: 300px;
+     margin-right: 300px;
+ }
+ .qwe{
+     font-family: "Josefin Sans",sans-serif,"Muli";
+     position: absolute;
+     top: 180px;
+     right: 16px;
+     padding-top: 300px;
+     margin-right: 370px;  
+ }
+.hero {
+    display:flex;
+    width:50%;
+    height:700px;
+    margin-left:-75px;
+    padding-top: 95px;
+    font-display: white;
+}
+.main{
+    background-image :url('walll.jpg');
+    background-position: center;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+.asd{
+    color: white;
+    font-size: 30px;
+}
+.nab-item{
+    color:white;
+}
+.nab-item1{
+    margin-left: 300px;
+    color:white;
+}
