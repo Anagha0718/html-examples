@@ -1,0 +1,42 @@
+.navbar-brand{
+    margin-left: 150px;
+}
+.navbar-nav li{
+    padding-left:100px;
+    padding-right:10px;
+    color:black;
+    text-align: right;
+}
+.nab-item1{
+    margin-left: 300px;
+    color:black;
+}
+.nab-item{
+    margin-left:-90px;
+    color:black;
+}
+.asdw{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px ;
+    background-color:#4b376f;
+    color:white;
+    font-family: "Raleway",sans-serif;
+
+}
+.asdw .sub{
+    font-size-adjust: 0.58;
+}
+.lower{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.btn
+{
+    color:white;
+}
+.btn1{
+    color:yellow;
+    background-color: #4b376f;
+}
